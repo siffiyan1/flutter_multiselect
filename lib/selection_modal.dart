@@ -120,6 +120,7 @@ class _SelectionModalState extends State<SelectionModal> {
 
   PreferredSizeWidget _buildAppBar(BuildContext context) {
     return AppBar(
+      backgroundColor: Color(0XFFa73131),
       leading: Container(),
       elevation: 0.0,
       title: Center(child: Text(widget.title, style: TextStyle(fontSize: 16.0))),
